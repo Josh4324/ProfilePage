@@ -226,7 +226,7 @@ label {
     cursor: pointer;
 }
 
-.attr {}
+
 
 @media (max-width:900px) {
     .contact {
@@ -268,11 +268,17 @@ label {
 
 @media (max-width:450px) {
     .main {
-        padding-bottom: 150%;
+        padding-bottom: 200%;
     }
 
     .contact {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         width: 90%;
+    }
+}
+
+@media (max-width:360px) {
+    .main {
+        padding-bottom: 350%;
     }
 }
